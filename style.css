@@ -1,0 +1,100 @@
+body {
+  background-color: #D1B599ff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  line-height: 40px;
+  color: #005B4A;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  line-height: 20px;
+  color: #778F77;
+}
+
+p {
+  padding: 10px;
+}
+
+
+#orange-link {
+  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
+  width: 200px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+
+  border-radius: 50px;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#orange-link:hover{
+  background-position: 100% 0;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+#orange-link:focus {
+  outline: none;
+}
+
+a {
+  color: #005B4A;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  color: #2F4858;
+}
+
+.card {
+  background-color: white;
+  border: 7px dotted lightgrey;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  margin: 30px auto;
+  width: 40%;
+}
+
+.round-image {
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i {
+  font-size: 30px;
+}
+
+@media (max-width: 730px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .card {
+    width: 400px;
+  }
+}
